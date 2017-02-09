@@ -7,7 +7,7 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
-var add = require('./routes/add');
+var addFriend = require('./routes/add');
 var index = require('./routes/index');
 // Example route
 // var user = require('./routes/user');
